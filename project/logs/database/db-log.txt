@@ -1,0 +1,36 @@
+>2016-12-23:12:03:27am SELECT * FROM `users` WHERE `email` =  AND `password` = "b2535771dde09e57927a57ea95f525fa"
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND `password` = "b2535771dde09e57927a57ea95f525fa"' at line 1
+>2016-12-23:12:03:27am SELECT `password`, `confirmed` FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:12:58:38am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:12:59:36am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:01:04:02am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:01:06:13am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:01:06:25am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:01:07:43am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:01:08:18am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:01:08:30am SELECT * FROM `users` WHERE `email` =
+- SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+>2016-12-23:01:14:11am ALTER TABLE `users` ADD `modified` DATETIME  NOT NULL
+- SQLSTATE[HY000]: General error
+>2016-12-23:01:14:12am ALTER TABLE `users` ADD `created` DATETIME  NOT NULL
+- SQLSTATE[HY000]: General error
+>2016-12-23:01:14:14am ALTER TABLE `users` ADD `modifiedBy` INT (11) NOT NULL
+- SQLSTATE[HY000]: General error
+>2016-12-23:01:14:15am ALTER TABLE `users` ADD `createdBy` INT (11) NOT NULL
+- SQLSTATE[HY000]: General error
+>2016-12-23:01:14:15am INSERT  INTO `users` ( `first_name`, `last_name`, `email`, `phone`, `created`, `modified` ) VALUES ( 'Ankit', 'Kumar', 'mail2ankit85@gmail.com', '09953992372', '2016-12-23 01:14:15', '2016-12-23 01:14:15' )
+- SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'field list'
+>2016-12-23:01:15:51am INSERT  INTO `users` ( `first_name`, `last_name`, `email`, `phone`, `created`, `modified` ) VALUES ( 'Ankit', 'Kumar', 'mail2ankit85@gmail.com', '09953992372', '2016-12-23 01:15:51', '2016-12-23 01:15:51' )
+- SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'field list'
+>2016-12-23:01:16:23am INSERT  INTO `users` ( `first_name`, `last_name`, `email`, `phone`, `created`, `modified` ) VALUES ( 'Ankit', 'Kumar', 'mail2ankit85@gmail.com', '09953992372', '2016-12-23 01:16:23', '2016-12-23 01:16:23' )
+- SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'field list'
+>2016-12-23:01:17:45am INSERT  INTO `users` ( `first_name`, `last_name`, `email`, `phone`, `created`, `modified` ) VALUES ( 'Ankit', 'Kumar', 'mail2ankit85@gmail.com', '09953992372', '2016-12-23 01:17:45', '2016-12-23 01:17:45' )
+- SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'field list'
